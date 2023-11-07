@@ -1,1 +1,40 @@
+// Varjutyun 1
+
+number = prompt('Please enter number') 
+if(number % 2 === 0){
+console.log('even')
+} else {
+console.log('odd')
+} 
+
+// Varjutyun 2
+<!DOCTYPE html>
+<script>
+"use strict"; 
+
+ let login = prompt( 'inch pashton unes', '')
+let message =  (login == 'Сотрудник' ) ? 'barev' :
+(login == 'Директор' ) ? 'Привет' :
+(login == '' ) ? 'Нет логина' :
+'' 
+
+alert(message);
+
+</script>
+
+// varjutyun 3
+
+<!DOCTYPE html>
+<script>
+
+
+let result;
+let a = 5;
+let b = 6;
+
+result = (a + b < 4) ? 'Мало' : 'Много';
+
+
+</script>
+
 
